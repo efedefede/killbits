@@ -1,0 +1,35 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background: rgb(255, 208, 0);
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: rgb(17, 17, 17);
+}
+button {
+  width: 300px;
+  height: 50px;
+  background: rgb(255, 208, 0);
+  cursor: pointer;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  transition: 1000ms;
+}
+button:hover {
+  background: rgb(17, 17, 17);
+  color: rgb(255, 208, 0);
+}

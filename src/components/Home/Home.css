@@ -1,0 +1,26 @@
+.Home {
+  background: rgb(17, 17, 17);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  /* height: 100vh; */
+}
+/* .vid {
+  margin: auto;
+  width: 80%;
+  height: 50%;
+} */
+/* .cartita {
+  margin: auto;
+} */
+.cartita {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}

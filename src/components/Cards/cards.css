@@ -1,0 +1,25 @@
+.card {
+  height: 150px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 20px;
+  background: violet;
+}
+.image {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.image img {
+  height: 150px;
+  width: 200px;
+}
+.info {
+  position: absolute;
+  left: 0;
+  background: white;
+  height: 100px;
+}
