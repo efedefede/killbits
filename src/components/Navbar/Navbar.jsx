@@ -1,13 +1,9 @@
-//import { useFirebaseApp } from "reactfire";
-//import ReactPlayer from "react-player";
 import HomeIcon from "@material-ui/icons/Home";
 import InfoIcon from "@material-ui/icons/Info";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 function Navbar() {
-  /* const firebase = useFirebaseApp();
-  console.log(firebase); */
   return (
     <div className="Navbar">
       <NavLink to="/kb/home" className="link">

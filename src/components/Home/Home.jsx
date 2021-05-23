@@ -1,7 +1,5 @@
 import { useFirebaseApp } from "reactfire";
 import firebase from "firebase";
-//import ReactPlayer from "react-player";
-import ViewVideo from "../ViewVideo/ViewVideo";
 import Cards from "../Cards/cards";
 import urls from "../../URLS/urls";
 import "./Home.css";
