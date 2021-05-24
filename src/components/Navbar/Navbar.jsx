@@ -2,10 +2,18 @@ import HomeIcon from "@material-ui/icons/Home";
 import InfoIcon from "@material-ui/icons/Info";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import { NavLink } from "react-router-dom";
+import logo from "../../images/kbpngnegro.png";
 import "./Navbar.css";
 function Navbar() {
   return (
     <div className="Navbar">
+      <NavLink to="/kb/home" className="link">
+        <div className="logo">
+          <img src={logo} alt="" />
+        </div>
+        <div className="vertical-line"></div>
+      </NavLink>
+
       <NavLink to="/kb/home" className="link">
         <button>
           <HomeIcon />

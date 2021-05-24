@@ -6,7 +6,18 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  background: rgb(255, 208, 0);
+  background: rgb(241, 219, 120);
+}
+.logo img {
+  margin-left: 30px;
+  margin-right: 50px;
+  height: 50px;
+}
+.vertical-line {
+  width: 1px;
+  height: 50px;
+  background: rgb(17, 17, 17);
+  color: rgb(17, 17, 17);
 }
 
 .link {
@@ -18,9 +29,9 @@
   color: rgb(17, 17, 17);
 }
 button {
-  width: 300px;
+  width: 200px;
   height: 50px;
-  background: rgb(255, 208, 0);
+  background: rgb(241, 219, 120);
   cursor: pointer;
   border: none;
   display: flex;
@@ -31,5 +42,5 @@ button {
 }
 button:hover {
   background: rgb(17, 17, 17);
-  color: rgb(255, 208, 0);
+  color: rgb(241, 219, 120);
 }
